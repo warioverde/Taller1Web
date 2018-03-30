@@ -51,3 +51,42 @@ margin-left: 17%;
   font-size: 2vw;
   border: solid;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .carousel-caption h3{
+    
+    font-size: 6vw;
+    
+
+  }
+  .cerroNielolCaption p{
+    color: rgb(127, 120, 133);
+  }
+  .lagoBudiCaption p{
+    color: rgb(251, 246, 255);
+  }
+  #carouselExampleControls .carousel-item img.cerroNielol{
+  
+    width: 100vw;
+    height: 40vw;
+    
+  }
+  #carouselExampleControls .carousel-item img.lagunaAzul{
+    
+    width: 100vw;
+    height: 40vw;
+  }
+  #carouselExampleControls .carousel-item img.lagoBudi{
+    
+    width: 102vw;
+    height: 40vw;
+  }
+  .footer img{
+    margin:10px auto;
+    display:block;
+  }
+  .footer p,.footer h3{
+    text-align: center;
+  }
+}
