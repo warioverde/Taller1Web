@@ -1,21 +1,4 @@
-.volcanYFrase img.volcanLlaima{
-width:  65%;
-height: 65%;  
-position: relative;
-z-index: 1;
-margin-left: 17%;
-}
-.volcanYFrase > h1{
-  position: absolute;
-  border: solid;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 6%;
-  font-size: 3vw;
-  z-index: 2;
-  text-align: center;
-  color: black;
-}
+/* redimencionamiento de imagenes del carrusel */
 #carouselExampleControls .carousel-item img.cerroNielol{
   
   width: 100vw;
@@ -32,25 +15,13 @@ margin-left: 17%;
   width: 102vw;
   height: 33vw;
 }
-/*.listaDescriptiva{
-  
-  float: left;
-  clear: both;
-  border: solid;
-  margin-left: 20vw;
-  padding-right: 30.5vw;
-  margin-right: 20%;
-  font-size: 2vw;
-  background-color: tan;
- 
-   
-}*/
 #contenerdorPropaganda{
   margin-left: 20vw;
   margin-right: 20vw;
   font-size: 2vw;
   border: solid;
 }
+/* correciones para telefonos */
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
