@@ -60,4 +60,14 @@
   .footer p,.footer h3{
     text-align: center;
   }
+  .carousel-caption img{
+    width: 32;
+    height: 32;
+    
+
+  }
+  .carousel-caption h3{
+    font-size: 4vw;
+
+  }
 }
